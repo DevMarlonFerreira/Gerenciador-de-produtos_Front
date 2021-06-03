@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  DB-Front:
+    image: marlonferreira/frontgs
+    ports:
+      - "80:80"
+# app-prod:
+#     container_name: dockerized-react-app
+#     build:
+#       context: .
+#       dockerfile: Dockerfile-prod
+#     ports:
+#       - '8080:80'
