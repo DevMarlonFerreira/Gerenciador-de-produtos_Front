@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  DB-Front:
+  Front-End-Server:
     image: marlonferreira/frontgs
     ports:
       - "80:80"
