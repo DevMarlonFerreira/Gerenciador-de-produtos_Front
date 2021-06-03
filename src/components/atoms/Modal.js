@@ -22,14 +22,27 @@ const ModalContent = styled.div`
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
+  /* border: 1px solid #888; */
   width: 80%;
 `;
 
 const Content = styled.div`
   font-size: 16px;
-  padding: 15px;
+  padding-top: 15px;
   border-bottom: 1px solid #ee6b26;
+  margin-bottom: 10px;
+
+  label {
+    margin-right: 10px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  Button {
+    margin-top: 200px;
+  }
 `;
 
 const Close = styled.span`
@@ -42,6 +55,10 @@ const Close = styled.span`
     text-decoration: none;
     cursor: pointer;
   }
+`;
+
+const Section = styled.div`
+  margin-top: 20px;
 `;
 
 // const Modal = ({ show, title, refresh, produto }) => {
@@ -111,11 +128,15 @@ const Modal = ({ ...props }) => {
                 value={valor}
               />
             </Content>
-            {props.produto ? (
-              <Button onClick={atualizar}>Atualizar</Button>
-            ) : (
-              <Button onClick={salvar}>Salvar</Button>
-            )}
+            <Section>
+              {props.produto ? (
+                <Button color="default" onClick={atualizar}>
+                  Atualizar
+                </Button>
+              ) : (
+                <Button onClick={salvar}>Salvar</Button>
+              )}
+            </Section>
           </form>
         </ModalContent>
       </Root>

@@ -37,7 +37,12 @@ const Row = ({ ...props }) => {
       <Grid>
         <div>{props.produto.nome}</div>
         <div>{props.produto.descricao}</div>
-        <div>{props.produto.valor}</div>
+        <div>
+          {props.produto.valor.toLocaleString("pt-br", {
+            style: "currency",
+            currency: "BRL",
+          })}
+        </div>
         <Button onClick={handler} color="default">
           Editar
         </Button>
