@@ -75,7 +75,7 @@ const Modal = ({ ...props }) => {
 
   function salvar(event) {
     event.preventDefault();
-    const url = "http://localhost:8080/api/produto";
+    const url = process.env.REACT_APP_URL_POST_PRODUCT;
     utilAjax.reqPostJSON(url, { nome, descricao, valor });
     limpaCampo();
     props.handler();
@@ -83,7 +83,7 @@ const Modal = ({ ...props }) => {
 
   function atualizar(event) {
     event.preventDefault();
-    const url = "http://localhost:8080/api/produto";
+    const url = process.env.REACT_APP_URL_PUT_PRODUCT;
     utilAjax.reqPutJSON(url, { ...props.produto, nome, descricao, valor });
     limpaCampo();
     props.handler();

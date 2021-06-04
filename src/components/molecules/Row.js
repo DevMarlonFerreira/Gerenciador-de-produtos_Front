@@ -21,7 +21,7 @@ const Container = styled.div`
 `;
 
 function deletar(event) {
-  const url = "http://localhost:8080/api/produto/" + event.target.id;
+  const url = process.env.REACT_APP_URL_DELETE_PRODUCT + event.target.id;
   utilAjax.reqDeleteJSON(url);
 }
 

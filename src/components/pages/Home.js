@@ -10,7 +10,7 @@ import Button from "../atoms/Button";
 import Modal from "../atoms/Modal";
 
 const Home = () => {
-  const url = "http://localhost:8080/api/produtos";
+  const url = process.env.REACT_APP_URL_GET_ALL_PRODUCTS;
   const [produtos, setProdutos] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
