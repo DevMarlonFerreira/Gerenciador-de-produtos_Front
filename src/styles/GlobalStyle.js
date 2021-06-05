@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-      margin: 0;
+      margin: 15px;
     }
 
     a, button {

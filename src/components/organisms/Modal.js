@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
 import utilAjax from "../../services/api";
 import Button from "../atoms/Button";
@@ -61,7 +61,6 @@ const Section = styled.div`
   margin-top: 20px;
 `;
 
-// const Modal = ({ show, title, refresh, produto }) => {
 const Modal = ({ ...props }) => {
   const [nome, setNome] = useState(props.produto?.nome);
   const [descricao, setDescricao] = useState(props.produto?.descricao);
@@ -126,6 +125,8 @@ const Modal = ({ ...props }) => {
                 id="valor"
                 onChange={(e) => setValor(e.target.value)}
                 value={valor}
+                min="0.00"
+                step="0.01"
               />
             </Content>
             <Section>
@@ -134,7 +135,9 @@ const Modal = ({ ...props }) => {
                   Atualizar
                 </Button>
               ) : (
-                <Button onClick={salvar}>Salvar</Button>
+                <Button color="primary" onClick={salvar}>
+                  Salvar
+                </Button>
               )}
             </Section>
           </form>
@@ -142,6 +145,22 @@ const Modal = ({ ...props }) => {
       </Root>
     </>
   );
+};
+
+Modal.defaultProps = {
+  title: "",
+  produto: undefined,
+};
+
+Modal.propTypes = {
+  title: PropTypes.string,
+  produtos: PropTypes.arrayOf(
+    PropTypes.shape({
+      nome: PropTypes.string,
+      descricao: PropTypes.string,
+      valor: PropTypes.number,
+    })
+  ),
 };
 
 export default Modal;

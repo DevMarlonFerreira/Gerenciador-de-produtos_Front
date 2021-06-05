@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
 import Button from "../atoms/Button";
-import Modal from "../atoms/Modal";
-
+import Modal from "../organisms/Modal";
 import utilAjax from "../../services/api";
 
 const Grid = styled.div`
@@ -18,6 +17,7 @@ const Container = styled.div`
   display: inline-block;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 `;
 
 function deletar(event) {
@@ -61,8 +61,19 @@ const Row = ({ ...props }) => {
   );
 };
 
-// Row.defaultProps = {};
+Row.defaultProps = {
+  produto: {},
+};
 
-// Row.propTypes = {};
+Row.propTypes = {
+  produto: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      nome: PropTypes.string,
+      descricao: PropTypes.string,
+      valor: PropTypes.number,
+    })
+  ),
+};
 
 export default Row;

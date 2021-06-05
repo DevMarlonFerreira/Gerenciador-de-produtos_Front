@@ -1,4 +1,4 @@
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 export const ButtonColors = {
@@ -47,7 +47,6 @@ const Button = styled.button`
   padding: 12px 36px;
   cursor: pointer;
   background-color: ${getMainColor};
-  /* border: 2px solid ${(props) => props.theme.colors.primary.default}; */
   color: ${getColorText};
 
   display: inline-block;
@@ -58,15 +57,21 @@ const Button = styled.button`
     cursor: not-allowed;
   }
 
-  /* &:hover:enabled */
   &:hover:not(:disabled) {
     background-color: ${getSecondaryColor};
-    /* border-color: ${(props) => props.theme.colors.primary.default}; */
   }
 `;
 
-// Button.defaultProps = {};
+Button.defaultProps = {
+  type: "button",
+  children: undefined,
+  color: "default",
+};
 
-// Button.propTypes = {};
+Button.propTypes = {
+  type: PropTypes.string,
+  children: PropTypes.node,
+  color: PropTypes.oneOf(Object.values(ButtonColors)),
+};
 
 export default Button;

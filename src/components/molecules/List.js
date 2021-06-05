@@ -7,7 +7,6 @@ const Grid = styled.div`
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-columns: 1fr;
-  /* background-color: red; */
 `;
 const List = ({ children }) => (
   <>
@@ -15,10 +14,12 @@ const List = ({ children }) => (
   </>
 );
 
-List.propTypes = {
-  produto: PropTypes.node,
+List.defaultProps = {
+  children: undefined,
 };
 
-List.defaultProps = {};
+List.propTypes = {
+  children: PropTypes.node,
+};
 
 export default List;

@@ -1,32 +1,29 @@
 import React, { useState, useEffect } from "react";
-// import PropTypes from "prop-types";
 
 import utilAjax from "../../services/api";
-
 import Row from "../molecules/Row";
 import Necktie from "../atoms/Necktie";
 import List from "../molecules/List";
 import Button from "../atoms/Button";
-import Modal from "../atoms/Modal";
+import Modal from "../organisms/Modal";
 
 const Home = () => {
   const url = process.env.REACT_APP_URL_GET_ALL_PRODUCTS;
   const [produtos, setProdutos] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
-  async function getProdutos() {
-    await utilAjax.reqGetJSON(url).then((response) => {
-      setProdutos(response);
-    });
-  }
-
-  function handler(event) {
+  function handler() {
     setShowModal(!showModal);
   }
 
   useEffect(() => {
+    async function getProdutos() {
+      await utilAjax.reqGetJSON(url).then((response) => {
+        setProdutos(response);
+      });
+    }
     getProdutos();
-  }, [showModal, produtos]);
+  }, [showModal, produtos, url]);
 
   return (
     <>
@@ -49,9 +46,5 @@ const Home = () => {
     </>
   );
 };
-
-// Home.defaultProps = {};
-
-// Home.propTypes = {};
 
 export default Home;
