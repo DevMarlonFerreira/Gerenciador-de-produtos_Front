@@ -1,1 +1,1 @@
-docker build -f Dockerfile-prod -t marlonferreira/frontgs .
+docker build -f Dockerfile-prod -t marlonferreira/frontgs . 
