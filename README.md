@@ -4,8 +4,8 @@ Este projeto é parte integrande do projeto ProdutosGS
 
 # Repositórios
 
-Repositório do [FRONT-END](https://github.com/DevMarlonFerreira/ProdutosGS_Front).
-Repositório do [BACK-END](https://github.com/DevMarlonFerreira/ProdutosGS_Back).
+Repositório do [FRONT-END](https://github.com/DevMarlonFerreira/ProdutosGS_Front).\
+Repositório do [BACK-END](https://github.com/DevMarlonFerreira/ProdutosGS_Back).\
 
 ## Available Scripts
 
