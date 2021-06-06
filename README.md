@@ -1,10 +1,12 @@
 # ProdutosGS_Front
 
-Este projeto é parte integrande do projeto ProdutosGS
+Este projeto é parte integrande do projeto ProdutosGS.
 
 # Instalação e inicialização
 
-Executar o comando "docker compose up" na raiz do projeto FRONT-END ou BACK-END
+Executar o comando "docker compose up" na raiz do projeto FRONT-END ou BACK-END.
+
+Obs: Se vier a falhar o container da API -> aguarde a completa inicializacao do container do DB e reinicie o container da API.
 
 ### `Repositórios`
 
