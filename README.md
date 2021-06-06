@@ -13,5 +13,5 @@ Repositório do [BACK-END](https://github.com/DevMarlonFerreira/ProdutosGS_Back)
 
 ### `Repositórios das imagens`
 
-Repositório da imagem [FRONT-END](https://hub.docker.com/repository/docker/marlonferreira/frontgs).\
-Repositório do [BACK-END](https://hub.docker.com/repository/docker/marlonferreira/backgs).
+Repositório da imagem do [FRONT-END](https://hub.docker.com/repository/docker/marlonferreira/frontgs).\
+Repositório da imagem do [BACK-END](https://hub.docker.com/repository/docker/marlonferreira/backgs).
