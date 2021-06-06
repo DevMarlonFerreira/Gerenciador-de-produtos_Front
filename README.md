@@ -2,14 +2,14 @@
 
 Este projeto é parte integrande do projeto ProdutosGS
 
-# Repositórios
+# Instalação e inicialização
+
+Executar o comando "docker compose up" na raiz do projeto FRONT-END ou BACK-END
+
+### Repositórios
 
 Repositório do [FRONT-END](https://github.com/DevMarlonFerreira/ProdutosGS_Front).\
 Repositório do [BACK-END](https://github.com/DevMarlonFerreira/ProdutosGS_Back).
-
-##  Instalação e inicialização
-
-Executar o comando "docker compose up" na raiz do projeto FRONT-END ou BACK-END
 
 ### `Repositórios das imagens`
 
