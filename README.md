@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# ProdutosGS_Front
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é parte integrande do projeto ProdutosGS
+
+# Repositórios
+
+Repositório do [FRONT-END](https://github.com/DevMarlonFerreira/ProdutosGS_Front).
+Repositório do [BACK-END](https://github.com/DevMarlonFerreira/ProdutosGS_Back).
 
 ## Available Scripts
 
