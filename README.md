@@ -13,7 +13,7 @@ Executar o comando "docker compose up" na raiz do projeto FRONT-END ou BACK-END
 
 In the project directory, you can run:
 
-### `yarn start`
+### `Repositórios das imagens`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Repositório da imagem [FRONT-END](https://hub.docker.com/repository/docker/marlonferreira/frontgs).\
+Repositório do [BACK-END](https://hub.docker.com/repository/docker/marlonferreira/backgs).
