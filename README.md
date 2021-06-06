@@ -11,7 +11,9 @@ Repositório do [BACK-END](https://github.com/DevMarlonFerreira/ProdutosGS_Back)
 
 Executar o comando "docker compose up" na raiz do projeto FRONT-END ou BACK-END
 
-In the project directory, you can run:
+
+
+
 
 ### `Repositórios das imagens`
 
