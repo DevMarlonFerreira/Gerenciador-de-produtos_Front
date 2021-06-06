@@ -11,10 +11,6 @@ Repositório do [BACK-END](https://github.com/DevMarlonFerreira/ProdutosGS_Back)
 
 Executar o comando "docker compose up" na raiz do projeto FRONT-END ou BACK-END
 
-
-
-
-
 ### `Repositórios das imagens`
 
 Repositório da imagem [FRONT-END](https://hub.docker.com/repository/docker/marlonferreira/frontgs).\
