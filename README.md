@@ -25,7 +25,6 @@ Plataforma de gerenciamento de produtos.
 
 1 - Executar o comando "docker compose up" na raiz do projeto.
 
-
 Obs: Se vier a falhar o container da API:
 
 1- Aguarde a completa inicializacao do container do DataBase.
