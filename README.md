@@ -12,15 +12,11 @@ Plataforma de gerenciamento de produtos.
 
 ### Pré-requisitos
 
-Docker
-  ```sh
-  [DOCKER](https://www.docker.com/)
-  ```
+- Docker
+É necessario ter instalado o [DOCKER](https://www.docker.com/)
 
-Docker Compose
-  ```sh
-  [Docker Compose](https://docs.docker.com/compose/)
-  ```
+- Docker Compose  
+É necessario ter instalado o [Docker Compose](https://docs.docker.com/compose/)
 
 <!-- USAGE EXAMPLES -->
 <h2 tabindex="-1" dir="auto"><a id="user-content--usage" class="anchor" aria-hidden="true" tabindex="-1" href="#-usage">⚡ Usage ⚡</h2>
