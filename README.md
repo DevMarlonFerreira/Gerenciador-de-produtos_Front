@@ -14,7 +14,7 @@ Plataforma de gerenciamento de produtos.
 
 - Docker
   
-É necessario ter instalado o [DOCKER](https://www.docker.com/)
+É necessario ter instalado o [Docker](https://www.docker.com/)
 
 - Docker Compose
   
