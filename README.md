@@ -16,6 +16,7 @@ Plataforma de gerenciamento de produtos.
   ```sh
   [DOCKER](https://www.docker.com/)
 ```
+
 - Docker Compose
   ```sh
   [Docker Compose](https://docs.docker.com/compose/)
