@@ -12,12 +12,12 @@ Plataforma de gerenciamento de produtos.
 
 ### Pré-requisitos
 
-- Docker
+Docker
   ```sh
   [DOCKER](https://www.docker.com/)
-```
+  ```
 
-- Docker Compose
+Docker Compose
   ```sh
   [Docker Compose](https://docs.docker.com/compose/)
   ```
