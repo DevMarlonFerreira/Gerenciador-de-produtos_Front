@@ -13,9 +13,11 @@ Plataforma de gerenciamento de produtos.
 ### Pré-requisitos
 
 - Docker
+  
 É necessario ter instalado o [DOCKER](https://www.docker.com/)
 
-- Docker Compose  
+- Docker Compose
+  
 É necessario ter instalado o [Docker Compose](https://docs.docker.com/compose/)
 
 <!-- USAGE EXAMPLES -->
