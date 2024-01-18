@@ -13,10 +13,13 @@ Plataforma de gerenciamento de produtos.
 ### Pré-requisitos
 
 - Docker
+  ```sh
   [DOCKER](https://www.docker.com/)
-
-- Docker Compose 
+```
+- Docker Compose
+  ```sh
   [Docker Compose](https://docs.docker.com/compose/)
+  ```
 
 <!-- USAGE EXAMPLES -->
 <h2 tabindex="-1" dir="auto"><a id="user-content--usage" class="anchor" aria-hidden="true" tabindex="-1" href="#-usage">⚡ Usage ⚡</h2>
